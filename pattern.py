@@ -21,7 +21,7 @@ for i in range(row,0,-1):
 
 row=int(input("Enter number of rows:"))
 print("Hill Pattern")
-for i in range(1,row):
+for i in range(1,row+1):
     for j in range(row-i):
         print(" ", end=" ")
     for k in range(2*i-1):
